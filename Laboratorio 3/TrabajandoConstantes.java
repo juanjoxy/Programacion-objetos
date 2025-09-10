@@ -1,4 +1,4 @@
-public class p018_TrabajandoConstantes {
+public class TrabajandoConstantes {
 
     static final double DESCUENTO = 0.10;
     static final int VELOCIDADLUZ = 30000;
