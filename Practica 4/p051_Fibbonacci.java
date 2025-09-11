@@ -1,4 +1,4 @@
-public class Fibbonacci {
+public class p051_Fibbonacci {
     public static void main(String[] args) {
         System.out.println("Secuencia fibbonacci");
         int n1, n2, r;
