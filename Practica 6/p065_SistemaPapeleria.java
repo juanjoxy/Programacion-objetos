@@ -2,9 +2,6 @@ import java.util.Scanner;
 
 /**
  * Programa para controlar la venta de fotocopias en una papelería.
- * Calcula las ventas por tipo de copia, totaliza y muestra un resumen con mensaje
- * según el monto total vendido.
- *
  * Juan José Iñiguez de la cruz
  * Fecha: 13/09/2025
  */
