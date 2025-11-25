@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class p046_TablaConversion {
+    public static void main(String[] args) {
+        int ini, fin, c;
+        float tc = 19.99f;
+        char resp;
+        Scanner obj = new Scanner(System.in);
+        do {
+        System.out.print("\033[H\033[2J");System.out.flush();
+        System.out.println("Imprime una tabla de conversión de peso mexicano a dolar estado unidense.\n");
+        do {
+        System.out.print("Inicio: "); ini = obj.nextInt();
+        System.out.print("Fin: "); fin = obj.nextInt();
+        } while( fin < ini );
+        c=ini;
+        System.out.println("Peso\tDolar");
+        while( c<=fin ) {
+        System.out.printf("%d\t%.2f\n",c,c/tc);
+        c++;
+        }
+        System.out.print("\n¿Deseas continuar? (Sí/No) ");resp = Character.toUpperCase(obj.next().charAt(0));
+        } while( resp != 'N');
+        System.out.println("\nEl proceso ha terminado. ");
+    }
+}
